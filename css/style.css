@@ -121,29 +121,26 @@ img {
 
 /* attractions */
 
-/* .attractions-wrapper{
-
- } */
+.attractions-wrapper {
+}
 
 .attractions-item {
-  background: var(--basic-light-blue);
-  width: 400px;
-  height: 256px;
-  left: 40px;
-  top: 780px;
+  color: var(--basic-dark-grey);
 }
-.attractions-item h3 {
-  font-size: 21px;
-  line-height: 21px;
-  color: var(--basic-white);
-}
-.attractions-item span {
-  color: var(--basic-white);
-}
-.attractions-item p {
+.attractions-item--blue {
+  background-color: var(--basic-light-blue);
   color: var(--basic-white);
 }
 
+.attractions-item h3 {
+  font-size: 21px;
+  color: var(--basic-black);
+}
+
+.attractions-list {
+  list-style: none;
+  background-color: var(--basic-grey);
+}
 /* features */
 
 .features-list {
@@ -192,10 +189,10 @@ img {
   font-size: 21px;
   line-height: 26px;
 }
-.footer-phone{
+.footer-phone {
   font-size: 21px;
   line-height: 26px;
 }
-.footer-copyright{
-line-height: 26px;
+.footer-copyright {
+  line-height: 26px;
 }
