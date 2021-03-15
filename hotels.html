@@ -4,10 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <title>HTML Academy: Седона-Отели</title>
-  <!-- <link rel="stylesheet" href="css/fonts.css"> -->
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" href="css/normalize.css">
-  
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -36,6 +35,7 @@
     </nav>
   </header>
   <main>
+    <h1>Отели</h1>
     <section>
       <h2>Фильтр отелей</h2>
       <!--Здесь будет фильтр-->
@@ -60,7 +60,7 @@
       <h2>Список отелей</h2>
       <div>
         <div>
-          <div><span>Найдено:<span> 3</span></span></div>
+          <p>Найдено:<span> 3</span></p>
           <div>
             <span>Сортировка:</span>
             <ul>
@@ -79,13 +79,11 @@
         <ul>
           <li>
             <div>
-              <a href="blank.html">
-                <p>
-                  <img src="img/hotel-1.jpg" width="135" height="90" alt="Фотография отеля Amara Resort & Spa">
-                </p>
-              </a>
               <div>
                 <a href="blank.html">
+                  <p>
+                    <img src="img/hotel-1.jpg" width="135" height="90" alt="Фотография отеля Amara Resort & Spa">
+                  </p>
                   <h3>Amara Resort & Spa</h3>
                 </a>
                 <p>
@@ -107,11 +105,11 @@
           </li>
           <li>
             <div>
-              <a href="blank.html">
-                <p><img src="img/hotel-2.jpg" width="135" height="90" alt="Фотография отеля Desert Quail Inn"></p>
-              </a>
               <div>
                 <a href="blank.html">
+                  <p>
+                    <img src="img/hotel-2.jpg" width="135" height="90" alt="Фотография отеля Desert Quail Inn">
+                  </p>
                   <h3>Desert Quail Inn</h3>
                 </a>
                 <p>
@@ -132,11 +130,11 @@
           </li>
           <li>
             <div>
-              <a href="blank.html">
-                <p><img src="img/hotel-3.jpg" width="135" height="90" alt="Фотография отеля Villas at Poco Diablo"></p>
-              </a>
               <div>
                 <a href="blank.html">
+                  <p>
+                    <img src="img/hotel-3.jpg" width="135" height="90" alt="Фотография отеля Villas at Poco Diablo">
+                  </p>
                   <h3>Villas at Poco Diablo</h3>
                 </a>
                 <p>
@@ -159,29 +157,31 @@
     </section>
   </main>
   <footer class="page-footer main-footer">
-    <section>
-      <h3>Контакты</h3>
-      <a href="index.html">#VISITSEDONA</a>
+    <section class="footer-contacts">
+      <h2>Контакты</h2>
+      <a href="#">#VISITSEDONA</a>
       <a href="tel:+74956660166">ТЕЛ:+7(495)666-01-66</a>
     </section>
-    <section>
-      <h3>Социальные Сети</h3>
+    <section class="footer-social">
+      <h2>Социальные Сети</h2>
       <ul>
         <li>
-          <a href="#">Твитер</a>
+          <a class="social-button" href="#">Твитер</a>
         </li>
         <li>
-          <a href="#">Фейсбук</a>
+          <a class="social-button" href="#">Фейсбук</a>
         </li>
         <li>
-          <a href="#">Ютуб</a>
+          <a class="social-button" href="#">Ютуб</a>
         </li>
       </ul>
     </section>
-    <span>website by</span>
-    <a href="https://htmlacademy.ru/">
-      <img src="img/htmlacademy-logo.svg" width="115" height="41" alt="Логотип HTMLAcademy" />
-    </a>
+    <p class="footer-copyright">
+      website by
+      <a type="button" href="https://htmlacademy.ru/">
+        <img src="img/htmlacademy-logo.svg" width="115" height="41" alt="Логотип HTMLAcademy" />
+      </a>
+    </p>
   </footer>
 </body>
 
